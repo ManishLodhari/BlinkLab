@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import Blin
+import Bli
 class ViewController: UIViewController {
     
     var isBlinking = false

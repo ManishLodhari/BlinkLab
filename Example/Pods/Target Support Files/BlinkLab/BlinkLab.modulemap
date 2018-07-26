@@ -1,6 +1,0 @@
-framework module BlinkLab {
-  umbrella header "BlinkLab-umbrella.h"
-
-  export *
-  module * { export * }
-}

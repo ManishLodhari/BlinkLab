@@ -13,8 +13,8 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		8150A99276E33A92B66C7938 /* Pods_BlinkLab_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CDF2BA21982F8B754F48F5D /* Pods_BlinkLab_Example.framework */; };
-		B7669B4426ECAF23B8384455 /* Pods_BlinkLab_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5D44435F20BB101979873B3 /* Pods_BlinkLab_Tests.framework */; };
+		8B26910B231F32C518BE096A /* Pods_BlinkLab_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ACE13190870FE2E3E1F4632 /* Pods_BlinkLab_Tests.framework */; };
+		D84760C1429968EAA1216FAF /* Pods_BlinkLab_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A3E40F54EB48A4C317F2431 /* Pods_BlinkLab_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,11 +28,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0CDF2BA21982F8B754F48F5D /* Pods_BlinkLab_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlinkLab_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1B48081DE042BE6967CD550C /* Pods-BlinkLab_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlinkLab_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BlinkLab_Tests/Pods-BlinkLab_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		2828C14A87A176BCF0E88E5C /* Pods-BlinkLab_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlinkLab_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BlinkLab_Example/Pods-BlinkLab_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		08B6F14C20DC0C7F312A7297 /* Pods-BlinkLab_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlinkLab_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BlinkLab_Example/Pods-BlinkLab_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		0AC563D2A12035A51B50AB15 /* Pods-BlinkLab_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlinkLab_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BlinkLab_Tests/Pods-BlinkLab_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		4226FB5A515331BD821D8762 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		5246315172F906D33B9081BD /* Pods-BlinkLab_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlinkLab_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-BlinkLab_Example/Pods-BlinkLab_Example.release.xcconfig"; sourceTree = "<group>"; };
+		459A8E7DC0AEC7B06C2E805F /* Pods-BlinkLab_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlinkLab_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BlinkLab_Tests/Pods-BlinkLab_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		4ACE13190870FE2E3E1F4632 /* Pods_BlinkLab_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlinkLab_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* BlinkLab_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlinkLab_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -43,10 +43,10 @@
 		607FACE51AFB9204008FA782 /* BlinkLab_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlinkLab_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		6BC09D08A1A56E7EFB238573 /* Pods-BlinkLab_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlinkLab_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BlinkLab_Tests/Pods-BlinkLab_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		68D464ABB4F0B7468D0BE689 /* Pods-BlinkLab_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlinkLab_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-BlinkLab_Example/Pods-BlinkLab_Example.release.xcconfig"; sourceTree = "<group>"; };
+		7A3E40F54EB48A4C317F2431 /* Pods_BlinkLab_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlinkLab_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F9893E360F492414EF48D31 /* BlinkLab.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BlinkLab.podspec; path = ../BlinkLab.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AEED9E40ED7E8B62B5832DEE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		F5D44435F20BB101979873B3 /* Pods_BlinkLab_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlinkLab_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8150A99276E33A92B66C7938 /* Pods_BlinkLab_Example.framework in Frameworks */,
+				D84760C1429968EAA1216FAF /* Pods_BlinkLab_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,7 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B7669B4426ECAF23B8384455 /* Pods_BlinkLab_Tests.framework in Frameworks */,
+				8B26910B231F32C518BE096A /* Pods_BlinkLab_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,8 +76,8 @@
 				607FACD21AFB9204008FA782 /* Example for BlinkLab */,
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
-				770B3EA3D254F0A9D67CF50D /* Pods */,
-				D6DF842799F98DF5CBF585C7 /* Frameworks */,
+				83EA1D07BFE91F0AC19D001E /* Pods */,
+				BA0A2FA625BBF25A38B086A9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -139,22 +139,22 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
-		770B3EA3D254F0A9D67CF50D /* Pods */ = {
+		83EA1D07BFE91F0AC19D001E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				2828C14A87A176BCF0E88E5C /* Pods-BlinkLab_Example.debug.xcconfig */,
-				5246315172F906D33B9081BD /* Pods-BlinkLab_Example.release.xcconfig */,
-				6BC09D08A1A56E7EFB238573 /* Pods-BlinkLab_Tests.debug.xcconfig */,
-				1B48081DE042BE6967CD550C /* Pods-BlinkLab_Tests.release.xcconfig */,
+				08B6F14C20DC0C7F312A7297 /* Pods-BlinkLab_Example.debug.xcconfig */,
+				68D464ABB4F0B7468D0BE689 /* Pods-BlinkLab_Example.release.xcconfig */,
+				0AC563D2A12035A51B50AB15 /* Pods-BlinkLab_Tests.debug.xcconfig */,
+				459A8E7DC0AEC7B06C2E805F /* Pods-BlinkLab_Tests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		D6DF842799F98DF5CBF585C7 /* Frameworks */ = {
+		BA0A2FA625BBF25A38B086A9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0CDF2BA21982F8B754F48F5D /* Pods_BlinkLab_Example.framework */,
-				F5D44435F20BB101979873B3 /* Pods_BlinkLab_Tests.framework */,
+				7A3E40F54EB48A4C317F2431 /* Pods_BlinkLab_Example.framework */,
+				4ACE13190870FE2E3E1F4632 /* Pods_BlinkLab_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -166,7 +166,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "BlinkLab_Example" */;
 			buildPhases = (
-				D7BED57EE4E1E2D4DFF29F7C /* [CP] Check Pods Manifest.lock */,
+				5CE8DBC071B7F7E2C1301034 /* [CP] Check Pods Manifest.lock */,
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
@@ -184,7 +184,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "BlinkLab_Tests" */;
 			buildPhases = (
-				3B0FB57E14690C6502E3ECD9 /* [CP] Check Pods Manifest.lock */,
+				C5A1B6C86886E657156D2299 /* [CP] Check Pods Manifest.lock */,
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
@@ -260,25 +260,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		3B0FB57E14690C6502E3ECD9 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-BlinkLab_Tests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D7BED57EE4E1E2D4DFF29F7C /* [CP] Check Pods Manifest.lock */ = {
+		5CE8DBC071B7F7E2C1301034 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -290,6 +272,24 @@
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-BlinkLab_Example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5A1B6C86886E657156D2299 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BlinkLab_Tests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -447,7 +447,7 @@
 		};
 		607FACF01AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2828C14A87A176BCF0E88E5C /* Pods-BlinkLab_Example.debug.xcconfig */;
+			baseConfigurationReference = 08B6F14C20DC0C7F312A7297 /* Pods-BlinkLab_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BlinkLab/Info.plist;
@@ -462,7 +462,7 @@
 		};
 		607FACF11AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5246315172F906D33B9081BD /* Pods-BlinkLab_Example.release.xcconfig */;
+			baseConfigurationReference = 68D464ABB4F0B7468D0BE689 /* Pods-BlinkLab_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BlinkLab/Info.plist;
@@ -477,7 +477,7 @@
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6BC09D08A1A56E7EFB238573 /* Pods-BlinkLab_Tests.debug.xcconfig */;
+			baseConfigurationReference = 0AC563D2A12035A51B50AB15 /* Pods-BlinkLab_Tests.debug.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -499,7 +499,7 @@
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1B48081DE042BE6967CD550C /* Pods-BlinkLab_Tests.release.xcconfig */;
+			baseConfigurationReference = 459A8E7DC0AEC7B06C2E805F /* Pods-BlinkLab_Tests.release.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",

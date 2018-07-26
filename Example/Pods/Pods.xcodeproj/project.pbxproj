@@ -13,7 +13,7 @@
 		AA910423DD0840392B1F089B95D0B458 /* Pods-BlinkLab_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E518241FEA2A4B2FB958DE515E7A66D0 /* Pods-BlinkLab_Tests-dummy.m */; };
 		ADAD14BCE2AC97D6B3EF67BCE8455616 /* Pods-BlinkLab_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7796AB882335033C033FE140659BDC34 /* Pods-BlinkLab_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C98F594E2039E5E5D29AE0F94547C286 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		FFC2BC8A2109A6E1000C9E9C /* BlinkingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC2BC892109A6E0000C9E9C /* BlinkingLabel.swift */; };
+		FFC2BC8E2109A86E000C9E9C /* BlinkingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC2BC8C2109A86D000C9E9C /* BlinkingLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,7 +54,8 @@
 		FAAD451D1D77A8E0961F39534F1AB691 /* Pods-BlinkLab_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BlinkLab_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		FC33406725DB945E52FE33257B23DF5F /* Pods-BlinkLab_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BlinkLab_Example.modulemap"; sourceTree = "<group>"; };
 		FE46998F55DB0668A667539680C99700 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FFC2BC892109A6E0000C9E9C /* BlinkingLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlinkingLabel.swift; sourceTree = "<group>"; };
+		FFC2BC8C2109A86D000C9E9C /* BlinkingLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlinkingLabel.swift; sourceTree = "<group>"; };
+		FFC2BC8D2109A86D000C9E9C /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,7 +116,7 @@
 		56F747D04A8F77702B176840829037CA /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				FFC2BC882109A6E0000C9E9C /* Classes */,
+				FFC2BC8B2109A86D000C9E9C /* Classes */,
 				F1282203223A0C61C639D456BB8C2A57 /* BlinkLab.podspec */,
 				23FA7C958390EAF68B4DB73C41ED1B75 /* LICENSE */,
 				4C8CCC55F6592F49F594C909ED45CF80 /* README.md */,
@@ -186,12 +187,14 @@
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		FFC2BC882109A6E0000C9E9C /* Classes */ = {
+		FFC2BC8B2109A86D000C9E9C /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				FFC2BC892109A6E0000C9E9C /* BlinkingLabel.swift */,
+				FFC2BC8C2109A86D000C9E9C /* BlinkingLabel.swift */,
+				FFC2BC8D2109A86D000C9E9C /* .gitkeep */,
 			);
-			path = Classes;
+			name = Classes;
+			path = BlinkLab/Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -291,7 +294,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FFC2BC8A2109A6E1000C9E9C /* BlinkingLabel.swift in Sources */,
+				FFC2BC8E2109A86E000C9E9C /* BlinkingLabel.swift in Sources */,
 				136141E9016841749D90528FD1B5FBCB /* Pods-BlinkLab_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
