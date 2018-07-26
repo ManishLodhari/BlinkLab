@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BlinkLab'
-  s.version          = '0.1.4'
+  s.version          = '0.1.5'
   s.summary          = 'Blinking label'
   s.swift_version    = '4.1'
 # This description is used to generate tags and improve search results.
@@ -40,7 +40,7 @@ Pod::Spec.new do |s|
   
 
   s.resource_bundles = {
-      'BlinkLab' => ['BlinkLab/Assets/*.{lproj,storyboard}']
+      'BlinkLab' => ['Assets/*.{lproj,storyboard}']
       #  'BlinkLab' => ['BlinkLab/Classes/*.{storyboard,xib,xcassets,json,imageset,png}']
   }
 
