@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="iLK-JK-4XF">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Login View Controller-->
+        <scene sceneID="Tl4-gh-e09">
+            <objects>
+                <viewController storyboardIdentifier="LoginViewController" id="iLK-JK-4XF" customClass="LoginViewController" customModule="BlinkLab" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="BNx-Ng-g87"/>
+                        <viewControllerLayoutGuide type="bottom" id="eLR-bj-acm"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="5QF-rN-OFf">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="66n-ku-pL8">
+                                <rect key="frame" x="164.5" y="318.5" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="onBtnClickWithSender:" destination="iLK-JK-4XF" eventType="touchUpInside" id="TxF-Nx-etc"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="66n-ku-pL8" firstAttribute="centerY" secondItem="5QF-rN-OFf" secondAttribute="centerY" id="2hT-bK-T8a"/>
+                            <constraint firstItem="66n-ku-pL8" firstAttribute="centerX" secondItem="5QF-rN-OFf" secondAttribute="centerX" id="zZo-Nb-KjH"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lZK-Xj-PRL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-307" y="-59"/>
+        </scene>
+    </scenes>
+</document>

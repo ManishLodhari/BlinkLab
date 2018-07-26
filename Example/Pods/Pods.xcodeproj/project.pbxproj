@@ -77,7 +77,7 @@
 		FFC2BCB42109AE5C000C9E9C /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		FFC2BCC72109AFB5000C9E9C /* LoadStoryboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadStoryboard.swift; sourceTree = "<group>"; };
 		FFC2BCC92109B0C7000C9E9C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		FFC2BCCB2109BE79000C9E9C /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		FFC2BCCE2109D0DB000C9E9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -239,11 +239,19 @@
 				FFC2BCB32109AE5C000C9E9C /* BlinkingLabel.swift */,
 				FFC2BCC72109AFB5000C9E9C /* LoadStoryboard.swift */,
 				FFC2BCC92109B0C7000C9E9C /* LoginViewController.swift */,
-				FFC2BCCB2109BE79000C9E9C /* Main.storyboard */,
+				FFC2BCCC2109D0DB000C9E9C /* Base.lproj */,
 				FFC2BCB42109AE5C000C9E9C /* .gitkeep */,
 			);
 			name = Classes;
 			path = BlinkLab/Classes;
+			sourceTree = "<group>";
+		};
+		FFC2BCCC2109D0DB000C9E9C /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				FFC2BCCD2109D0DB000C9E9C /* Main.storyboard */,
+			);
+			path = Base.lproj;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -344,6 +352,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
 			productRefGroup = 4375BC0B3A8D31B0B579032D590CA6E3 /* Products */;
@@ -401,6 +410,17 @@
 			targetProxy = 274C4321E332C6564AEFA25EBD13F553 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FFC2BCCD2109D0DB000C9E9C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFC2BCCE2109D0DB000C9E9C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		1BE28DDC0AD48B05F87EC0E51C787971 /* Debug */ = {
