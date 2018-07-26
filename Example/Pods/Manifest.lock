@@ -1,0 +1,16 @@
+PODS:
+  - BlinkLab (0.1.0)
+
+DEPENDENCIES:
+  - BlinkLab (from `../`)
+
+EXTERNAL SOURCES:
+  BlinkLab:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BlinkLab: c839018fca868c1728c5aef524ce76486c60602a
+
+PODFILE CHECKSUM: 28ae5003a7382f02d1060bac2c7d42fda5f60842
+
+COCOAPODS: 1.5.3

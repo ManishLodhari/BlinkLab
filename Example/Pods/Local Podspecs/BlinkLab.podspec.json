@@ -1,0 +1,22 @@
+{
+  "name": "BlinkLab",
+  "version": "0.1.0",
+  "summary": "A short description of BlinkLab.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/manish.lodhari@pixometryinfosoft.com/BlinkLab",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "manish.lodhari@pixometryinfosoft.com": "manish.lodhari@pixometryinfosoft.com"
+  },
+  "source": {
+    "git": "https://github.com/manish.lodhari@pixometryinfosoft.com/BlinkLab.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "BlinkLab/Classes/**/*"
+}
