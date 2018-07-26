@@ -77,7 +77,8 @@
 		FFC2BCB42109AE5C000C9E9C /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		FFC2BCC72109AFB5000C9E9C /* LoadStoryboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadStoryboard.swift; sourceTree = "<group>"; };
 		FFC2BCC92109B0C7000C9E9C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		FFC2BCCE2109D0DB000C9E9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
+		FFC2BCD02109D408000C9E9C /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		FFC2BCD22109D408000C9E9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -225,6 +226,7 @@
 		FF5E23A2EF25C57B1EE5F193DE09ED3B /* BlinkLab */ = {
 			isa = PBXGroup;
 			children = (
+				FFC2BCCF2109D408000C9E9C /* Assets */,
 				FFC2BCB12109AE5C000C9E9C /* Classes */,
 				535AB168A30723060AA7B648836E54FA /* Pod */,
 				E41BE38FF4E0D38E61183582FA9E51F1 /* Support Files */,
@@ -239,19 +241,20 @@
 				FFC2BCB32109AE5C000C9E9C /* BlinkingLabel.swift */,
 				FFC2BCC72109AFB5000C9E9C /* LoadStoryboard.swift */,
 				FFC2BCC92109B0C7000C9E9C /* LoginViewController.swift */,
-				FFC2BCCC2109D0DB000C9E9C /* Base.lproj */,
 				FFC2BCB42109AE5C000C9E9C /* .gitkeep */,
 			);
 			name = Classes;
 			path = BlinkLab/Classes;
 			sourceTree = "<group>";
 		};
-		FFC2BCCC2109D0DB000C9E9C /* Base.lproj */ = {
+		FFC2BCCF2109D408000C9E9C /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				FFC2BCCD2109D0DB000C9E9C /* Main.storyboard */,
+				FFC2BCD02109D408000C9E9C /* .gitkeep */,
+				FFC2BCD12109D408000C9E9C /* Main.storyboard */,
 			);
-			path = Base.lproj;
+			name = Assets;
+			path = BlinkLab/Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -412,10 +415,10 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		FFC2BCCD2109D0DB000C9E9C /* Main.storyboard */ = {
+		FFC2BCD12109D408000C9E9C /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				FFC2BCCE2109D0DB000C9E9C /* Base */,
+				FFC2BCD22109D408000C9E9C /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
