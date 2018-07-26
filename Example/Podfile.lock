@@ -1,5 +1,5 @@
 PODS:
-  - BlinkLab (0.1.0)
+  - BlinkLab (0.1.7)
 
 DEPENDENCIES:
   - BlinkLab (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  BlinkLab: f44d4043684bbb4688913ba1b378076e44ca3826
+  BlinkLab: 67a58dc73bff94f6bde01250099836d686c6b35e
 
 PODFILE CHECKSUM: 28ae5003a7382f02d1060bac2c7d42fda5f60842
 

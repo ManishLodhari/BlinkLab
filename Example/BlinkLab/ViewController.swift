@@ -7,20 +7,15 @@
 //
 
 import UIKit
-//import BlinkLab
+import BlinkLab
 
 class ViewController: UIViewController {
     
-    var isBlinking = false
-   
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        // Setup the BlinkingLabel
-       
+        let vc = LoadStoryboard()
+        let appDelegate = UIApplication.shared.delegate as! AppDelegate
+        appDelegate.window?.rootViewController =   vc.loadMain()
     }
-    
-    
 }
 

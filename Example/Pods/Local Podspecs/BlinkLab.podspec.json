@@ -1,6 +1,6 @@
 {
   "name": "BlinkLab",
-  "version": "0.1.0",
+  "version": "0.1.7",
   "summary": "Blinking label",
   "swift_version": "4.1",
   "description": "Blinking label animation",
@@ -14,10 +14,11 @@
   },
   "source": {
     "git": "https://github.com/ManishLodhari/BlinkLab.git",
-    "tag": "0.1.0"
+    "tag": "0.1.7"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.1"
   },
-  "source_files": "BlinkLab/Classes/**/*"
+  "source_files": "BlinkLab/Classes/**/*",
+  "resources": "BlinkLab/Assets/**/*"
 }
