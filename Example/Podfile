@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'BlinkLab_Example' do
+  pod 'BlinkLab', :path => '../'
+
+  target 'BlinkLab_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
