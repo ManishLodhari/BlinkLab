@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BlinkLab'
-  s.version          = '0.1.5'
+  s.version          = '0.1.6'
   s.summary          = 'Blinking label'
   s.swift_version    = '4.1'
 # This description is used to generate tags and improve search results.
@@ -37,11 +37,11 @@ Pod::Spec.new do |s|
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  s.resources = 'BlinkLab/Resources/**/*'
   
-
-  s.resource_bundles = {
-      'BlinkLab' => ['Assets/*.{lproj,storyboard}']
+ #  s.resource_bundles = {
+ #      'BlinkLab' => ['BlinkLab/Assets/*.{lproj,storyboard}']
       #  'BlinkLab' => ['BlinkLab/Classes/*.{storyboard,xib,xcassets,json,imageset,png}']
-  }
+ #  }
 
 end
