@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="iLK-JK-4XF">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="4Kl-ga-HI7">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -25,6 +25,7 @@
                                 <state key="normal" title="Button"/>
                                 <connections>
                                     <action selector="onBtnClickWithSender:" destination="iLK-JK-4XF" eventType="touchUpInside" id="TxF-Nx-etc"/>
+                                    <segue destination="7Ij-jT-Pt6" kind="show" id="Ntk-Gd-61a"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -34,10 +35,47 @@
                             <constraint firstItem="66n-ku-pL8" firstAttribute="centerX" secondItem="5QF-rN-OFf" secondAttribute="centerX" id="zZo-Nb-KjH"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="CjU-VV-fVF"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lZK-Xj-PRL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-307" y="-59"/>
+            <point key="canvasLocation" x="631.20000000000005" y="-59.820089955022496"/>
+        </scene>
+        <!--Detail View Controller-->
+        <scene sceneID="dGt-2b-B9b">
+            <objects>
+                <viewController id="7Ij-jT-Pt6" customClass="DetailViewController" customModule="BlinkLab" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="5yP-3e-Ccd"/>
+                        <viewControllerLayoutGuide type="bottom" id="k60-u1-RbL"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="VIC-jH-1yB">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.35686274509999999" green="0.38431372549999998" blue="0.4549019608" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JD4-UB-kkC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1412" y="-109"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="sGl-kB-Lfx">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="4Kl-ga-HI7" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Tzm-GQ-wQu">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="iLK-JK-4XF" kind="relationship" relationship="rootViewController" id="2XR-ty-Fte"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UWw-N9-haj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-308" y="-59.820089955022496"/>
         </scene>
     </scenes>
 </document>

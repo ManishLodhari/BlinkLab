@@ -19,6 +19,7 @@
 		FFC2BCB72109AE5C000C9E9C /* BlinkingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC2BCB32109AE5C000C9E9C /* BlinkingLabel.swift */; };
 		FFC2BCC82109AFB5000C9E9C /* LoadStoryboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC2BCC72109AFB5000C9E9C /* LoadStoryboard.swift */; };
 		FFC2BCCA2109B0C7000C9E9C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC2BCC92109B0C7000C9E9C /* LoginViewController.swift */; };
+		FFC2BCDC210A04A9000C9E9C /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC2BCDB210A04A8000C9E9C /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +80,7 @@
 		FFC2BCC92109B0C7000C9E9C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		FFC2BCD02109D408000C9E9C /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		FFC2BCD22109D408000C9E9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FFC2BCDB210A04A8000C9E9C /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -241,6 +243,7 @@
 				FFC2BCB32109AE5C000C9E9C /* BlinkingLabel.swift */,
 				FFC2BCC72109AFB5000C9E9C /* LoadStoryboard.swift */,
 				FFC2BCC92109B0C7000C9E9C /* LoginViewController.swift */,
+				FFC2BCDB210A04A8000C9E9C /* DetailViewController.swift */,
 				FFC2BCB42109AE5C000C9E9C /* .gitkeep */,
 			);
 			name = Classes;
@@ -392,6 +395,7 @@
 			files = (
 				FFC2BCB72109AE5C000C9E9C /* BlinkingLabel.swift in Sources */,
 				FFC2BCC82109AFB5000C9E9C /* LoadStoryboard.swift in Sources */,
+				FFC2BCDC210A04A9000C9E9C /* DetailViewController.swift in Sources */,
 				FFC2BCCA2109B0C7000C9E9C /* LoginViewController.swift in Sources */,
 				F2B1074A067E7759B8AB56632E67797D /* BlinkLab-dummy.m in Sources */,
 			);
