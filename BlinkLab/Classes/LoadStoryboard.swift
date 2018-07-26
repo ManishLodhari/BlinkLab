@@ -9,7 +9,7 @@ import Foundation
 import UIKit
 
 public class LoadStoryboard : NSObject {
-    func loadMain() -> UIViewController  {
+   public func loadMain() -> UIViewController  {
         let storyBoard : UIStoryboard = UIStoryboard(name: "Main", bundle:nil)
         let nextViewController = storyBoard.instantiateViewController(withIdentifier: "LoginViewController")  as! LoginViewController
         return nextViewController
